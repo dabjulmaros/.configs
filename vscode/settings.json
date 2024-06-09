@@ -1,0 +1,97 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.closeEmptyGroups": false,
+  "extensions.ignoreRecommendations": true,
+  "arduino.defaultBaudRate": 9600,
+  "arduino.logLevel": "verbose",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "editor.renderControlCharacters": true,
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono','Monaspace Krypton',Consolas,monospace",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono','Monaspace Neon',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  // used for Monaspace fonts
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.labelFormat": "short",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.fontSize": 14,
+  "emmet.showSuggestionsAsSnippets": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.linkedEditing": true,
+  "svelte.enable-ts-plugin": true,
+  "git.confirmSync": false,
+  "arduino.useArduinoCli": true,
+  "sql-formatter.dialect": "pl/sql",
+  "sql-formatter.uppercase": true,
+  "[plsql]": {
+    "editor.defaultFormatter": "mp.vscode-oracle-format"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "phpSniffer.autoDetect": true,
+  "editor.defaultFormatter": "bysabi.prettier-vscode-standard",
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1704740458301,
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "livePreview.portNumber": 5500,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[java]": {
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "php-cs-fixer.config": ".php_cs;.php_cs.dist",
+  "prettier.trailingComma": "es5",
+  "settingsSync.ignoredExtensions": ["vscodevim.vim"],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "workbench.iconTheme": "file-icons",
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "[search-result]": {
+    "editor.lineNumbers": "off"
+  },
+  "editor.codeLensFontFamily": "'CaskaydiaCove Nerd Font Mono','Monaspace Neon',Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.sideBar.location": "right"
+}
