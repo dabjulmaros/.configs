@@ -8,5 +8,6 @@ sqlite
 xz
 youtube-dl
 arc
+firefox
 font-monaspace
 zed
