@@ -77,7 +77,7 @@
   "secondary_prompt": {
     "foreground": "p:blue",
     "background": "transparent",
-    "template": "\u276f\u276f "
+    "template": "\u276f\u276f"
   },
   "transient_prompt": {
     "template": "\u276f ",
