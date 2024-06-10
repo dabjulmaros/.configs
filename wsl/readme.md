@@ -84,3 +84,6 @@
 
 This should be the base for a custom, and better zsh experience.
 Remember to add any other paths necessary.
+
+## Install With brew
+run `xargs brew install < brew_installed.txt`
