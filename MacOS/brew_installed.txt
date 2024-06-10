@@ -1,0 +1,12 @@
+ca-certificates
+fzf
+mpdecimal
+openssl@1.1
+python@3.11
+readline
+sqlite
+xz
+youtube-dl
+arc
+font-monaspace
+zed
