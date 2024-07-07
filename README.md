@@ -6,7 +6,7 @@ Just some configs
 
 - From Nerd Fonts: [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads#:~:text=Reserved%20Font%20Name%3A-,Cascadia%20Code,-%E2%80%A2%20Version%3A%202111.01) *With ligatures
 - From Github [Monaspace Krypton | Monaspace Neon](https://github.com/githubnext/monaspace#monaspace)
-
+<!-- not avalible in github :(
 ## Colors
 
 ![Black](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAAEFJREFUSEtjVBDX/s8wiAHjqAMpjJ3REKQwABlGQ3A0BCkNAUr1j6bB0RCkNAQo1T+aBkdDkNIQoFT/aBoc9iEIAFhGG6kyXM+2AAAAAElFTkSuQmCC)
@@ -28,4 +28,4 @@ Just some configs
 ![Bright White](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAADxJREFUSEvt0rENAAAIAkHZf2gc4htj3p7EHKRt5/DFB2E7CkLAUVBBKkDzblBBKkDzblBBKkDzbvC94AIf+E/FBbQWjQAAAABJRU5ErkJggg==)
 
 ![Foreground](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAAEFJREFUSEtjfH6k4z/DIAaMow6kMHZGQ5DCAGQYDcHREKQ0BCjVP5oGR0OQ0hCgVP9oGhwNQUpDgFL9o2lw2IcgAAqoP/39mECuAAAAAElFTkSuQmCC)
-![Cursor](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAAEFJREFUSEtj/PDp1H+GQQwYRx1IYeyMhiCFAcgwGoKjIUhpCFCqfzQNjoYgpSFAqf7RNDgagpSGAKX6R9PgsA9BAGNwSXGR+ds/AAAAAElFTkSuQmCC)
+![Cursor](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAAEFJREFUSEtj/PDp1H+GQQwYRx1IYeyMhiCFAcgwGoKjIUhpCFCqfzQNjoYgpSFAqf7RNDgagpSGAKX6R9PgsA9BAGNwSXGR+ds/AAAAAElFTkSuQmCC) -->
