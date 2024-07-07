@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "defaults": {
+      "colorScheme": "ILLUMINATION",
+      "font": {
+        "face": "CaskaydiaCove Nerd Font Mono",
+        "size": 10.0
+      }
+    }
+  },
+  "schemes": [
+    {
+      "background": "#302F2F",
+      "black": "#20172B",
+      "blue": "#34434D",
+      "brightBlack": "#583F77",
+      "brightBlue": "#678599",
+      "brightCyan": "#9D79A4",
+      "brightGreen": "#CAB4CF",
+      "brightPurple": "#A952E3",
+      "brightRed": "#EB292C",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#F7EB95",
+      "cursorColor": "#F0F2CA",
+      "cyan": "#544158",
+      "foreground": "#E7C488",
+      "green": "#807283",
+      "name": "ILLUMINATION",
+      "purple": "#75518C",
+      "red": "#EB606B",
+      "selectionBackground": "#F0F2CA",
+      "white": "#F0F2CA",
+      "yellow": "#E7C488"
+    }
+  ]
+}
