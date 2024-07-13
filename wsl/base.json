@@ -11,9 +11,10 @@
       "segments": [
         {
           "type": "path",
-          "style": "plain",
+          "style": "accordion",
+          "powerline_symbol": "",
           "foreground": "p:blue",
-          "background": "transparent",
+          "background": "p:green",
           "template": "{{ .Path }}",
           "properties": {
             "style": "full"
@@ -21,10 +22,11 @@
         },
         {
           "type": "git",
-          "style": "plain",
+          "style": "accordion",
+          "powerline_symbol": "",
           "foreground": "p:gray",
-          "background": "transparent",
-          "template": " {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }} <#9b9b9b>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>",
+          "background": "p:blue",
+          "template": " {{if .HEAD}}{{ .HEAD }} {{ if or (.Working.Changed) (.Staging.Changed) }}* {{ end }}{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}{{else}}{{end}}",
           "properties": {
             "branch_icon": "",
             "commit_icon": "@",
@@ -45,7 +47,6 @@
             "{{if gt .Code 0}}p:red{{end}}",
             "{{if eq .Code 0}}p:green{{end}}"
           ],
-
           "background": "transparent",
           "template": "\u276f",
           "properties": {
@@ -66,7 +67,7 @@
           "background": "transparent",
           "template": "{{ .FormattedMs }}",
           "properties": {
-            "threshold": 5000,
+            "threshold": 1000,
             "style": "round"
           }
         }
@@ -91,13 +92,13 @@
     }
   },
   "palette": {
-    "blue": "#4B95E9",
-    "green": "#59C9A5",
+    "blue": "#E7C488",
+    "green": "#807283",
     "orange": "#F07623",
-    "red": "#D81E5B",
-    "gray": "#9b9b9b",
-    "_black": "#262B44",
-    "_white": "#E0DEF4",
-    "_yellow": "#F3AE35"
+    "red": "#EB606B",
+    "gray": "#583F77",
+    "_black": "#20172B",
+    "_white": "#F0F2CA",
+    "_yellow": "#E7C488"
   }
 }
