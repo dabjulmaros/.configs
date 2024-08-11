@@ -11,3 +11,4 @@ arc
 firefox
 font-monaspace
 zed
+oh-my-posh
