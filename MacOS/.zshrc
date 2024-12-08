@@ -1,9 +1,4 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+
 
 # zInit Plugin Manager
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -11,8 +6,9 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
-# PowerLevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# Load Oh My Posh from brew
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/base.json)"
 
 # Sytnax Highlighting 
 zinit light zsh-users/zsh-syntax-highlighting
@@ -27,9 +23,6 @@ zinit light Aloxaf/fzf-tab
 autoload -U compinit && compinit
 
 zinit cdreplay -q
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # keybindings
 bindkey "^[[A" up-line-or-search # Up Arrow
@@ -60,4 +53,36 @@ alias ls='ls --color'
 
 # Shell integrations
 eval "$(fzf --zsh)"
-# eval "$(zoxide init --cmd cd zsh)"
+
+# PATHS
+
+# Setting PATH for Python 3.10
+# The original version is saved in .zprofile.pysave
+export PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.10/bin"
+
+#vscode path
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+#PlayDate
+export PATH="$PATH:/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin:/Users/damac/Developer/PlaydateSDK/bin"
+
+#Rust
+export PATH="$PATH:$HOME/.cargo/env"
+
+#flutter
+export PATH="$PATH:$HOME/Developer/flutter/bin"
+
+# Ruby
+export PATH="$PATH:/opt/homebrew/opt/ruby/bin"
+# Ruby gems
+export PATH="$PATH:/opt/homebrew/lib/ruby/gems/3.3.0/bin"
+
+# Java
+export JAVA_HOME="$HOME/Developer/jdk-23.0.1.jdk/Contents/Home"
+
+export PATH="$JAVA_HOME/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
